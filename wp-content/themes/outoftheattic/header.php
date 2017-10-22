@@ -22,7 +22,7 @@
 
 		<header>
 <!--This logo is also a link to the home screen -->
-    <a href="index.html"><img src="<?php bloginfo('template_url'); ?>/assets/img/attic.png" alt="Logo" class="logo" id="logo"></a>
+    <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/assets/img/attic.png" alt="Logo" class="logo" id="logo"></a>
 <!-- Navigation Menu -->
     <nav class="menu">
         <?php html5blank_nav(); ?>
