@@ -1,0 +1,52 @@
+@import "animations.scss";
+@import "normalize.scss";
+
+//COLORS
+
+$maroon: #521F19;
+$gray: #808080;
+$yellow: #cc9900;
+
+//FONTS
+
+@font-face {
+    font-family: type;
+    src: url(fonts/AmericanTypewriter.ttf);
+}
+
+@font-face {
+  font-family: badguy;
+  src: url(fonts/BadGuyBlack.otf);
+}
+
+@font-face {
+  src: url(fonts/SignPainter.ttf);
+}
+
+.limit-min {
+  @include responsive-font(4vw, 70px);
+}
+
+.limit-min-max {
+  @include responsive-font(3vw, 40px, 50px);
+}
+
+//BREAKPOINTS
+
+$breakpoints: (
+  mobile: 500px,
+  tablet: 800px,
+  desktop: 1200px,
+  large: 1800px
+);
+
+@mixin breakpoint($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (min-width: #{map-get($breakpoints, $breakpoint)}) {
+      @content;
+    }
+  }
+  @else {
+    @warn "Unfortunately, no value could be retrieved '#{breakpoint}' . " + "Please make sure it is defiend in '$breakpoints' map."
+  }
+}

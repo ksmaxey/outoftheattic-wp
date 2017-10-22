@@ -1,0 +1,145 @@
+/* Featured Items */
+
+.section {
+  display: none;
+  padding-bottom: 2rem;
+  @media screen and (min-width: 768px) {
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+
+  @supports(display: grid) {
+    display: block;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    -ms-grid-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 150px;
+  grid-auto-flow: row dense;
+}
+
+.item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  grid-column-start: auto;
+    -ms-grid-column: auto;
+  grid-row-start: auto;
+    -ms-grid-row: auto;
+  background-image: url('img/grid_img/guitar.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease-in-out;
+  border: 2px solid $yellow;
+
+  &:nth-of-type(2n) {
+    background-image: url('img/grid_img/helmet.jpg');
+  }
+
+  &:nth-of-type(3n) {
+    background-image: url('img/grid_img/phono.jpg');
+  }
+  &:nth-of-type(4n) {
+    background-image: url('img/grid_img/tv.jpg');
+  }
+
+  &:nth-of-type(5n) {
+    background-image: url('img/grid_img/train.jpg');
+  }
+
+  &:nth-of-type(6n) {
+    background-image: url('img/grid_img/rolex.jpg');
+  }
+
+  &:nth-of-type(7n) {
+    background-image: url('img/grid_img/jacket.jpg');
+  }
+
+  &:nth-of-type(8n) {
+    background-image: url('img/grid_img/eames.jpg');
+  }
+
+  &:nth-of-type(9n) {
+    background-image: url('img/grid_img/autograph.jpg');
+  }
+
+  &:nth-of-type(10n) {
+    background-image: url('img/grid_img/coffee.jpg');
+  }
+
+  &:nth-of-type(11n) {
+    background-image: url('img/grid_img/beer.jpg');
+  }
+
+  &:nth-of-type(12n) {
+    background-image: url('img/grid_img/globe.jpg');
+  }
+
+  &:nth-of-type(13n) {
+    background-image: url('img/grid_img/glass.jpg');
+  }
+
+  &:nth-of-type(14n) {
+    background-image: url('img/grid_img/picnic.jpg');
+  }
+
+  &:nth-of-type(15n) {
+    background-image: url('img/grid_img/ring.jpg');
+  }
+
+  &:nth-of-type(16n){
+    background-image: url('img/grid_img/sofa.jpg');
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+
+    &:after {
+      opacity: 0;
+    }
+  }
+
+  &--medium {
+    grid-row-end: span 2;
+  }
+
+  &--large {
+    grid-row-end: span 3;
+  }
+
+  &--full {
+    grid-column-end: auto;
+
+    @media screen and (min-width: 768px) {
+      grid-column: 1/-1;
+      grid-row-end: span 2;
+    }
+  }
+
+  &__details {
+    position: relative;
+    z-index: 1;
+    padding: 15px;
+    background: #fff;
+    letter-spacing: 1px;
+    color: $maroon;
+    font-family: type;
+    text-align: center;
+  }
+}
