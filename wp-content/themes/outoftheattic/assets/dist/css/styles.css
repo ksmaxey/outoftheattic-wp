@@ -503,14 +503,14 @@ template {
 
 @font-face {
   font-family: type;
-  src: url(fonts/AmericanTypewriter.ttf); }
+  src: url(../fonts/AmericanTypewriter.ttf); }
 
 @font-face {
   font-family: badguy;
-  src: url(fonts/BadGuyBlack.otf); }
+  src: url(../fonts/BadGuyBlack.otf); }
 
 @font-face {
-  src: url(fonts/SignPainter.ttf); }
+  src: url(../fonts/SignPainter.ttf); }
 
 .limit-min {
   font-size: 4vw; }
@@ -1739,7 +1739,7 @@ textarea {
 
 .about h1,
 .featured h1,
-.events h1,
+.page-template-page-events-php h1,
 .blog-body h1,
 .blog h1,
 .appraisals h1,

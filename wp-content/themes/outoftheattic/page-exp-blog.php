@@ -35,7 +35,6 @@ get_header(); ?>
     </aside>
   </div>
   <!--Button that takes the user back to the blog page -->
-  <a href="blog.html" title="Blog"><button type="button" name="button">Back To Blog</button></a>
-
+  <a href="<?php bloginfo('url'); ?>/blog" title="Blog"><button type="button" name="button">Back To Blog</button></a>
 
 <?php get_footer(); ?>
