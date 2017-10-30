@@ -1411,7 +1411,7 @@ footer {
   max-width: 20px; }
 
 .home {
-  background-image: url(assets/img/background.jpg);
+  background-image: url(../assets/img/background.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1739,7 +1739,7 @@ textarea {
 
 .about h1,
 .featured h1,
-.page-template-page-events-php h1,
+.events h1,
 .blog-body h1,
 .blog h1,
 .appraisals h1,
