@@ -10,7 +10,7 @@
 			<!-- This is the individually scrollable area -->
 			<aside class="scrollable expand-container">
 				<div class="description">
-					<h2>Description:</h2>
+					<?php the_content(); ?>
 					<ul>
 						<li>Applicant must have Reliable Transportation</li>
 						<li>Must be punctual and able to keep track of all appointments</li>
