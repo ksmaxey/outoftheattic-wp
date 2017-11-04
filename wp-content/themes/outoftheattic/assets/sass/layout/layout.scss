@@ -79,7 +79,7 @@ footer {
   position: relative;
   left: 0;
   bottom: 0;
-  font-family: type;
+  font-family: AmericanTypewriter;
   font-size: em(16px);
   letter-spacing: 2px;
   display: flex;
@@ -147,7 +147,7 @@ a {
 
 .about {
   p {
-    font-family: type;
+    font-family: AmericanTypewriter;
     letter-spacing: 1px;
     line-height: 1.5;
       span {
@@ -190,7 +190,7 @@ iframe {
 .expand-container {
   width: 100%;
   background-color: $gray;
-  font-family: type;
+  font-family: AmericanTypewriter;
   font-size: em(20px);
   color: white;
   letter-spacing: 1.5px;
@@ -239,7 +239,7 @@ iframe {
   }
 
   p {
-    font-family: type;
+    font-family: AmericanTypewriter;
     letter-spacing: 2px;
     line-height: 1.5;
   }
@@ -291,7 +291,7 @@ iframe {
     }
 
   aside {
-    font-family: type;
+    font-family: AmericanTypewriter;
     letter-spacing: 1.5px;
     line-height: 1.5;
     font-size: 20px;
@@ -353,7 +353,7 @@ iframe {
   }
 
   p {
-    font-family: type;
+    font-family: AmericanTypewriter;
     font-size: em(30px);
     span {
       font-family: BadGuyBlack;
@@ -398,7 +398,7 @@ iframe {
 .app-message,
 .app-contact {
   p {
-    font-family: type;
+    font-family: AmericanTypewriter;
     display: inline;
     &:first-of-type {
       font-family: BadGuyBlack;
@@ -540,7 +540,7 @@ button {
   -webkit-box-shadow: 3px 4px 8px #666666;
   -moz-box-shadow: 3px 4px 8px #666666;
   box-shadow: 1px 2px 6px #666666;
-  font-family: type;
+  font-family: AmericanTypewriter;
   color: white;
   border: 2px solid $yellow;
   font-size: 20px;
@@ -575,7 +575,7 @@ button {
   padding: 20px;
   border: 4px solid $yellow;
   width: 80%;
-  font-family: type;
+  font-family: AmericanTypewriter;
   letter-spacing: 1.5px;
   font-size: em(20px);
   text-align: center;

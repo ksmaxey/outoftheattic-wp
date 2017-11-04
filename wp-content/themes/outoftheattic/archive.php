@@ -14,7 +14,7 @@
 					<div class="event">
 		        <img src="<?php bloginfo(template_url) ?>/assets/img/roadshow.jpg" alt="Antiques Roadshow">
 		          <div class="event-font">
-		            <p class="date">FRI <span><?php the_field('event_date'); ?></span> 5pm</p>
+		            <p class="date"><span><?php the_field('event_day'); ?></span><span><?php the_field('event_date'); ?></span><span><?php the_field('event_time'); ?></span></p>
 		            <h2 class="title"><?php the_title(); ?></h2>
 		            <a href="events-expand.html"><button type="button" name="button">Learn More</button></a>
 		        </div>

@@ -33,7 +33,7 @@
 			</aside>
 		</div>
 		<!--Button that takes the user back to the blog page -->
-		<a href="blog.html" title="Blog"><button type="button" name="button">Back To Blog</button></a>
+		<a href="<?php echo get_permalink( 13 ); ?>" title="Blog"><button type="button" name="button">Back To Blog</button></a>
 	<?php endwhile; endif; ?>
 
 <?php get_footer(); ?>
