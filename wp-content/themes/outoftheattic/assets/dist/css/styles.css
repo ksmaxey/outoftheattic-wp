@@ -502,11 +502,9 @@ template {
   display: none; }
 
 @font-face {
-  font-family: type;
   src: url(../fonts/AmericanTypewriter.ttf); }
 
 @font-face {
-  font-family: badguy;
   src: url(../fonts/BadGuyBlack.otf); }
 
 @font-face {
@@ -1457,7 +1455,7 @@ a {
     padding-bottom: 20px; }
 
 .about h2 {
-  font-family: badguy;
+  font-family: BadGuyBlack;
   text-align: center;
   color: #cc9900; }
 
@@ -1505,14 +1503,14 @@ iframe {
   margin-bottom: 100px; }
 
 .blog h2 {
-  font-family: badguy;
+  font-family: BadGuyBlack;
   font-size: 1.875em;
   letter-spacing: 1.5px;
   text-align: center;
   color: #521F19; }
 
 .blog h3 {
-  font-family: badguy;
+  font-family: BadGuyBlack;
   font-size: 1.25em;
   color: #521F19; }
 
@@ -1552,7 +1550,7 @@ iframe {
     font-size: 0.9375em; }
 
 .expand h1 {
-  font-family: badguy;
+  font-family: BadGuyBlack;
   color: #cc9900;
   text-align: center;
   font-size: 1.875em;
@@ -1608,7 +1606,7 @@ iframe {
     font-family: type;
     font-size: 1.875em; }
     .event p span {
-      font-family: badguy; }
+      font-family: BadGuyBlack; }
   .event h2 {
     font-family: SignPainter;
     font-size: 3.125em; }
@@ -1641,7 +1639,7 @@ iframe {
   .app-first p:first-of-type,
   .app-message p:first-of-type,
   .app-contact p:first-of-type {
-    font-family: badguy;
+    font-family: BadGuyBlack;
     color: #cc9900; }
 
 .app-first,
@@ -1744,7 +1742,7 @@ textarea {
 .blog h1,
 .appraisals h1,
 .contact h1 {
-  font-family: badguy;
+  font-family: BadGuyBlack;
   color: #cc9900;
   text-align: center;
   font-size: 2.5em;

@@ -12,5 +12,3 @@ get_header(); ?>
     <a href="about.html"><button class="enter limit-min-max" type="button">Enter</button></a>
   </div>
 </div>
-
-<?php get_footer(); ?>
