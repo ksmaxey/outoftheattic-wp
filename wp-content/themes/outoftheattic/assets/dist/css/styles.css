@@ -1350,7 +1350,10 @@ header {
   -ms-flex-pack: center;
   justify-content: center;
   font-family: SignPainter;
-  margin-top: 50px; }
+  margin-top: 50px;
+  list-style: none; }
+  .menu li {
+    padding: 30px; }
   @media (max-width: 800px) {
     .menu {
       -webkit-box-orient: vertical;
@@ -1641,6 +1644,9 @@ iframe {
   .app-contact p:first-of-type {
     font-family: BadGuyBlack;
     color: #cc9900; }
+
+#app_description {
+  height: 280px; }
 
 .app-first,
 .app-message {
