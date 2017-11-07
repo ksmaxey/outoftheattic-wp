@@ -16,7 +16,7 @@ get_header(); ?>
       <p>Antiques Roadshow is coming to Out of the Attic Antiques!  Antiques Roadshow is an American television program broadcast on Public Broadcasting Service (PBS) public television stations. The series features local antiques owners who bring in items to be appraised by experts. Provenance, history, and value of the items are discussed. Based on the original British Antiques Roadshow – which premiered in 1979 – the American version first aired in 1997. Antiques Roadshow has been nominated 14 times for a Primetime Emmy!<br><br>
       Check out the video to see more!</p>
       <!--This button redirects the user back to the events page -->
-      <a href="events.html" title="Events"><button type="button" name="button">Back To Events</button></a>
+      <a href="<?php bloginfo('url'); ?>/events" title="Events"><button type="button" name="button">Back To Events</button></a>
     </div>
   </div>
 

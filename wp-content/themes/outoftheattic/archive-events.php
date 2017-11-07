@@ -12,7 +12,8 @@
 				<div class="events-container">
 					<?php the_post_thumbnail(); ?>
 					<div class="event">
-		        <img src="<?php bloginfo(template_url) ?>/assets/img/roadshow.jpg" alt="Antiques Roadshow">
+		        <?php $image = get_field('event_image'); ?>
+						<img src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>">
 		          <div class="event-font">
 		            <p class="date"><span><?php the_field('event_day'); ?></span><span><?php the_field('event_date'); ?></span><span><?php the_field('event_time'); ?></span></p>
 		            <h2 class="title"><?php the_title(); ?></h2>
