@@ -16,18 +16,3 @@
 		<!-- STYLES ARE ENQUED THROUGH FUNCTIONS.PHP -->
 
 		<?php wp_head(); ?>
-
-	</head>
-	<body <?php body_class(); ?>>
-
-		<header>
-<!--This logo is also a link to the home screen -->
-    <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/assets/img/attic.png" alt="Logo" class="logo" id="logo"></a>
-<!-- Navigation Menu -->
-    <nav class="menu">
-        <?php html5blank_nav(); ?>
-<!-- Social Media Icons in a div to keep them close together -->
-					<?php get_template_part('partials/social_media'); ?>
-    </nav>
-  </header>
-	<main>

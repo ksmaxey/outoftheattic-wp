@@ -12,7 +12,7 @@
 				<div class="description">
 					<?php the_content(); ?>
 				</div>
-				<p>If interested in applying, please use the form located on our Contact page.</p>
+				<p></p>
 			</aside>
 		</div>
 		<?php endwhile; endif; ?>
