@@ -1697,6 +1697,19 @@ textarea {
     background-color: transparent;
     opacity: 0.8; }
 
+.search input {
+  opacity: 0.3;
+  font-size: 1.875em;
+  width: 100%;
+  max-width: 800px;
+  resize: none;
+  font-family: type;
+  padding: 20px;
+  border: 4px solid #cc9900; }
+
+.search ul {
+  list-style: none; }
+
 .home-container,
 .about-container,
 .featured-container,
@@ -1772,3 +1785,6 @@ button {
   color: white;
   text-decoration: none;
   cursor: pointer; }
+
+.sidebar {
+  font-family: AmericanTypewriter; }

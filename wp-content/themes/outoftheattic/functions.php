@@ -403,4 +403,40 @@ remove_filter('the_excerpt', 'wpautop'); // Remove <p> tags from Excerpt altoget
  }
 
 
-// TODO: INCLUDE AH HA CREATIVE BRANDED LOGIN SCREEN
+// MOVE COMMENT TEXT AREA TO BOTTOM OF FORM
+
+function wpb_move_comment_field_to_bottom( $fields) {
+  $comment_field = $fields['comment'];
+  unset( $fields['comment']);
+  $fields['comment'] = $comment_field;
+  return $fields;
+}
+
+//CUSTOM COMMENT WALKER
+
+add_filter('comment_form_fields', 'wpb_move_comment_field_to_bottom');
+
+function ahha_comments($comment, $args, $depth) {
+    $GLOBALS['comment'] = $comment; ?>
+    <div class="comments_response_one">
+          <!--RESPONSE-->
+          <div class="comments_responses_one_original">
+            <div class="comments_responses_avatar">
+              <?php echo get_avatar($comment, '140');?>
+            </div>
+            <div class="comments_responses_content">
+              <h3 class="comments_responses_date"><?php echo get_comment_date('F d, Y') . ', '; ?></h3>
+              <h3 class="comments_responses_subheading"><?php echo get_comment_author_link();?></h3>
+              <?php if ($comment->comment_approved == '0') : ?>
+                <em><?php _e('Your comment is awaiting moderation.') ?></em><br />
+              <?php endif;
+              edit_comment_link(__('(Edit)<br />'),'  ',''); ?>
+              <?= get_comment_text(); ?>
+              <div class="comments_responses_reply">
+                <a href="#">Reply</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <?php
+ }

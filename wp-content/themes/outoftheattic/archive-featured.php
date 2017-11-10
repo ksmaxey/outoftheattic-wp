@@ -8,19 +8,28 @@ get_header(); ?>
       <h1>Featured Items</h1>
       <div class="grid">
 
-        <?php if (have_posts()) : ?>
-        <!-- CONTENT -->
-        		<?php while (have_posts()) :
-
-        			the_post(); ?>
-        	<!-- The blog sections are broken up into large, medium, and small sections -->
+        <?php if (have_posts()) :
+          $contentIsLeft = true;
+        		while (have_posts()) : the_post(); ?>
+            <?php if ($contentIsLeft) { ?>
         				<div class="events-container">
+                  <h2><?php the_title(); ?></h2>
+                <?php } ?>
+
         					<?php the_post_thumbnail(); ?>
-        					<div>
+
+                  <div>
         		        <?php $image = get_field('featured_image'); ?>
         						<img src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>">
         		        </div>
-        		      </div>
+                  </div>
+
+                  <?php if (!$contentIsLeft) { ?>
+                      <h2><?php the_title(); ?></h2>
+                    <?php }
+
+                    $contentIsLeft = !$contentIsLeft ?>
+
         			<?php endwhile; ?>
         		</div>
         	</div>

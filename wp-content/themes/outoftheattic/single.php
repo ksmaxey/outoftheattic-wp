@@ -19,4 +19,14 @@
 		<!--Button that takes the user back to the blog page -->
 		<a href="<?php bloginfo('url'); ?>/blog" title="Blog"><button type="button" name="button">Back To Blog</button></a>
 
+		<?php comments_template(); ?>
+
+		<div class="comments-form">
+			<form action="">
+				<input type="text" placeholder="Name">
+				<input type="email" placeholder="Email">
+				<textarea placeholder="Comment"></textarea>
+				<button><input type="submit" name="submit" value="submit"></button>
+			</form>
+
 <?php get_footer(); ?>

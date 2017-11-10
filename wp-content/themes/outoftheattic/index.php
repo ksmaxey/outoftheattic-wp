@@ -25,6 +25,8 @@
 			<?php else: ?>
 				<em>No Posts Found</em>
 			<?php endif; ?>
+
+			<?php get_sidebar(); ?>
 					<!--
 					<div class="blog-medium">
 						<div class="blog-medium-content">
