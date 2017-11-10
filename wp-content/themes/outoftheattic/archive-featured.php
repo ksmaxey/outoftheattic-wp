@@ -16,10 +16,9 @@ get_header(); ?>
         	<!-- The blog sections are broken up into large, medium, and small sections -->
         				<div class="events-container">
         					<?php the_post_thumbnail(); ?>
-        					<div class="item">
+        					<div>
         		        <?php $image = get_field('featured_image'); ?>
         						<img src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>">
-        		            <a href="events-expand.html"><button type="button" name="button">View Item</button></a>
         		        </div>
         		      </div>
         			<?php endwhile; ?>

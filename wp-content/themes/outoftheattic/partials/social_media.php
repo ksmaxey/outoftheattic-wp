@@ -1,7 +1,7 @@
 <?php
   $facebook = get_field('facebook', 'options');
-  $twitter = get_field('facebook', 'options');
-  $instagram = get_field('facebook', 'options');
+  $twitter = get_field('twitter', 'options');
+  $instagram = get_field('instagram', 'options');
 
 if ($twitter || $facebook || $instagram) { ?>
 
