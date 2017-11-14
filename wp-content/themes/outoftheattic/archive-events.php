@@ -2,6 +2,7 @@
 
 <main class="events">
 	<h1>Events</h1>
+	<div class="events-border">
 
 <?php if (have_posts()) : ?>
 <!-- CONTENT -->
@@ -22,12 +23,11 @@
 		      </div>
 			<?php endwhile; ?>
 		</div>
-	</div>
 
 <?php else: ?>
 	<em>No Posts Found</em>
 <?php endif; ?>
-
+	</div>
 </main>
 
 <?php get_footer(); ?>

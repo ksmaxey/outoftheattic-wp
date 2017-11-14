@@ -537,15 +537,9 @@ template {
     .section {
       display: block; } }
 
-.grid {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  -ms-grid-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-auto-rows: 150px;
-  grid-auto-flow: row dense; }
-
 .item {
+  max-width: 400px;
+  clear: both;
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -562,11 +556,6 @@ template {
   justify-content: flex-end;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  grid-column-start: auto;
-  -ms-grid-column: auto;
-  grid-row-start: auto;
-  background-size: cover;
-  background-position: center;
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
   -o-transition: transform 0.3s ease-in-out;
@@ -1380,11 +1369,6 @@ footer {
   max-width: 20px; }
 
 .home {
-  background-image: url(../assets/img/background.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
   color: #521F19;
   font-family: SignPainter;
   display: block; }
@@ -1397,6 +1381,20 @@ footer {
   .home h1 {
     padding-left: 60px;
     position: relative; }
+
+.backgroundthumb {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-filter: blur(42px);
+  filter: blur(42px);
+  opacity: .75;
+  z-index: -1; }
 
 .enter {
   background-color: #521F19;
@@ -1443,9 +1441,8 @@ iframe {
   display: block;
   padding-bottom: 20px; }
 
-.events-container {
-  border: 4px solid #cc9900;
-  margin-bottom: 100px; }
+.events-border {
+  border: 4px solid #cc9900; }
 
 .expanded-wrapper,
 .expand-container {
@@ -1456,7 +1453,6 @@ iframe {
   color: white;
   letter-spacing: 1.5px;
   line-height: 1.5;
-  border: 4px solid #cc9900;
   margin: auto; }
   .expanded-wrapper p,
   .expand-container p {
@@ -1581,6 +1577,9 @@ iframe {
   .event h2 {
     font-family: SignPainter;
     font-size: 3.125em; }
+
+.featured img {
+  max-width: 400px; }
 
 .appraisals-container {
   background-color: rgba(128, 128, 128, 0.4);

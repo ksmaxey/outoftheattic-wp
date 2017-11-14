@@ -15,7 +15,15 @@
 				<p></p>
 			</aside>
 		</div>
+
+		<div class="pagination">
+			<div class="prev-post"><?php next_post_link('%link', 'newer stuff')?></div>
+			<div class="next-post"><?php previous_post_link('%link', 'older stuff') ?></div>
+			<br clear="both" />
+		</div>
+
 		<?php endwhile; endif; ?>
+
 		<!--Button that takes the user back to the blog page -->
 		<a href="<?php bloginfo('url'); ?>/blog" title="Blog"><button type="button" name="button">Back To Blog</button></a>
 

@@ -22,6 +22,13 @@
 			</div>
 		</div>
 
+		<div class="">
+			<?php previous_posts_link('<button><i class="pagination-left"></i> Next Post</button>') ?>
+		</div>
+		<div class="">
+			<?php next_posts_link('<button>Previous Post<i class="pagination-right"></i></button>') ?>
+		</div>
+
 			<?php else: ?>
 				<em>No Posts Found</em>
 			<?php endif; ?>
