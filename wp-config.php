@@ -19,12 +19,12 @@
  */
 
  // ** MySQL settings - You can get this info from your web host ** //
- // Include local configuration
+ // Include LOCAL configuration
  if (file_exists(dirname(__FILE__) . '/local-config.php')) {
  	include(dirname(__FILE__) . '/local-config.php');
  }
 
- // Global DB config
+ // SITEGROUND CONFIG
  if (!defined('DB_NAME')) {
  	define('DB_NAME', 'kylem388_outoftheattic-wp');
  }
