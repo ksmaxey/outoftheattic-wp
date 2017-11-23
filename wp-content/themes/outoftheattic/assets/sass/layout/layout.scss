@@ -331,8 +331,6 @@ iframe {
   }
 }
 
-
-
 //Expanded Blog Pages
 
 .expand {
@@ -406,9 +404,6 @@ iframe {
   p {
     font-family: AmericanTypewriter;
     font-size: em(30px);
-    span {
-      font-family: BadGuyBlack;
-    }
 
   }
 
@@ -416,6 +411,13 @@ iframe {
     font-family: SignPainter;
     font-size: em(50px);
   }
+}
+
+.date {
+    font-family: AmericanTypewriter;
+    span {
+      font-family: BadGuyBlack;
+    }
 }
 
 //FEATURED

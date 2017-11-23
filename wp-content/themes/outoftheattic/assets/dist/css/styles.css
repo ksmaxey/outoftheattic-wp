@@ -1595,11 +1595,14 @@ iframe {
   .event p {
     font-family: AmericanTypewriter;
     font-size: 1.875em; }
-    .event p span {
-      font-family: BadGuyBlack; }
   .event h2 {
     font-family: SignPainter;
     font-size: 3.125em; }
+
+.date {
+  font-family: AmericanTypewriter; }
+  .date span {
+    font-family: BadGuyBlack; }
 
 .featured img {
   max-width: 400px; }
