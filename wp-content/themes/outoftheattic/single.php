@@ -29,13 +29,4 @@
 
 		<?php comments_template(); ?>
 
-		<div class="comments-form">
-			<form action="">
-				<input type="text" placeholder="Name">
-				<input type="email" placeholder="Email">
-				<textarea placeholder="Comment"></textarea>
-				<button><input type="submit" name="submit" value="submit"></button>
-			</form>
-		</div>
-
 <?php get_footer(); ?>

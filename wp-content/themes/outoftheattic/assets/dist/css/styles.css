@@ -1473,6 +1473,55 @@ iframe {
 .next-post {
   float: left; }
 
+.comments {
+  width: 1000px;
+  max-width: 100%;
+  margin: auto;
+  background-color: #808080;
+  padding: 20px;
+  margin-bottom: 100px;
+  border: 4px solid #cc9900; }
+  .comments h2,
+  .comments h3 {
+    color: #cc9900;
+    font-family: BadGuyBlack; }
+  .comments #reply-title {
+    text-align: center; }
+  .comments .logged-in-as {
+    text-align: center; }
+  .comments .comment-form-comment {
+    margin: auto;
+    width: 800px;
+    max-width: 100%; }
+  .comments a {
+    color: white;
+    font-family: AmericanTypewriter; }
+  .comments label {
+    display: none; }
+  .comments .form-submit {
+    float: right; }
+    .comments .form-submit input {
+      color: white;
+      border: 2px solid #cc9900;
+      background-color: transparent;
+      padding: 15px;
+      font-family: AmericanTypewriter;
+      -webkit-box-shadow: 3px 4px 8px #666666;
+      -moz-box-shadow: 3px 4px 8px #666666;
+      box-shadow: 1px 2px 6px #666666; }
+  .comments img {
+    border-radius: 50%; }
+  .comments .comments_responses_date {
+    color: #521F19; }
+  .comments .comments_responses_content {
+    color: #521F19;
+    font-family: AmericanTypewriter;
+    font-size: 1.2em; }
+  .comments .comments_responses_reply {
+    color: #521F19;
+    text-decoration: underline;
+    padding-bottom: 20px; }
+
 .search section {
   width: 500px;
   max-width: 100%;
