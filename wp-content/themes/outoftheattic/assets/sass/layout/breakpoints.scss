@@ -126,40 +126,18 @@ footer {
     h3 {
       text-align: center;
     }
+  }
 
     .blog-large {
-      p {
-        padding-top: 20px;
-      }
-    }
-
-    .blog-large,
-    .blog-medium {
         button {
           margin-left: 70%;
         }
         p {
           max-width: 700px;
           margin: auto;
+          padding-top: 20px;
         }
       }
-
-      .blog-medium {
-        .blog-medium-content {
-          max-width: 700px;
-          margin: auto;
-      }
-      button {
-        margin-top: 20px;
-      }
-    }
-
-      .blog-small-content {
-        width: 100%;
-        max-width: 700px;
-        margin: auto;
-      }
-    }
   }
 
     @include breakpoint(desktop) {
@@ -174,36 +152,11 @@ footer {
         margin: auto;
         .blog-large {
           grid-column: 2 / 8;
-          grid-row: 1 / 11;        }
-        .blog-medium {
-          grid-column: 8 / 12;
-          grid-row: 1 / 6;
-          height: 100%;
-          button {
-            width: 100%;
-            max-width: 150px;
-            font-size: em(20px);
-            margin: auto;
-            margin-left: 175px;
-            margin-top: 20px;
-          }
-        }
-        #item_1 {
-          grid-column: 8 / 12;
-          grid-row: 7 / 8;
-        }
-        #item_2 {
-          grid-column: 8 / 12;
-          grid-row: 8 / 9;
-        }
-        #item_3 {
-          grid-column: 8 / 12;
-          grid-row: 9 / 10;
-        }
-        #item_4 {
-          grid-column: 8 / 12;
-          grid-row: 10 / 11;
-        }
+      }
+      .sidebar {
+        grid-column: 8 / 12;
+        width: 400px;
+        padding-top: 10px;
       }
     }
 
@@ -220,11 +173,9 @@ footer {
     align-content: end;
     margin: auto;
   }
-
-  #expand-blog-image {
-    padding: 20px;
-  }
 }
+
+//Appraisals
 
 .appraisals-container {
   @include breakpoint (tablet) {
@@ -289,3 +240,4 @@ footer {
       grid-column: 10 / 11;
     }
   }
+}

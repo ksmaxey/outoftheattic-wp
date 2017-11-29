@@ -5,7 +5,7 @@
 		<h1><?php the_title(); ?></h1>
 		<div class="blog-expand-grid">
 			<main class="blog">
-				<img src="<?php bloginfo('template_url'); ?>/assets/img/hiring2.jpg" alt="Now Hiring" id="expand-blog-image">
+					<?php the_post_thumbnail(); ?>
 			</main>
 <!-- <?php the_content(); ?> (USE THIS TO LOAD ACTUAL BLOG CONTENT)-->
 			<!-- This is the individually scrollable area -->
@@ -16,10 +16,9 @@
 				<p></p>
 			</aside>
 		</div>
-
 		<div class="pagination">
-			<div class="prev-post"><?php next_post_link('%link', 'newer stuff')?></div>
-			<div class="next-post"><?php previous_post_link('%link', 'older stuff') ?></div>
+			<div class="prev-post"><?php next_post_link('%link', 'newer stuff >')?></div>
+			<div class="next-post"><?php previous_post_link('%link', '< older stuff') ?></div>
 			<br clear="both" />
 		</div>
 
