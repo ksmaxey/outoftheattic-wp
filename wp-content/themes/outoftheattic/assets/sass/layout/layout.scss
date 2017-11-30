@@ -49,18 +49,15 @@ header {
   @media (max-width: 800px) {
     flex-direction: column;
   }
-
   .logo {
     max-width: 200px;
     padding-top: 10px;
   }
-
   .icons {
     max-width: 80px;
     margin: 0 -25px;
     padding-right: 30px;
   }
-
   a {
     flex-grow: 1;
     color:$gray;
@@ -120,10 +117,10 @@ footer {
     }
   }
 
-  .backgroundthumb {
-    height: 100vh;
-    background-size: cover;
-  }
+.backgroundthumb {
+  height: 100vh;
+  background-size: cover;
+}
 
 .enter {
   background-color: $maroon;
@@ -223,6 +220,7 @@ iframe {
 .expanded-wrapper {
   margin-bottom: 100px;
 }
+
 //BLOG
 
 .blog {
@@ -233,23 +231,19 @@ iframe {
     text-align: center;
     color: $maroon;
   }
-
   h3 {
     font-family: BadGuyBlack;
     font-size: em(20px);
     color: $maroon;
   }
-
   img {
     max-width: 100%;
   }
-
   p {
     font-family: AmericanTypewriter;
     letter-spacing: 2px;
     line-height: 1.5;
   }
-
   em {
     font-family: AmericanTypewriter;
     padding-bottom: 140px;
@@ -257,11 +251,9 @@ iframe {
     margin-left: 45%;
     font-size: 1.5em;
   }
-
   .attachment-post-thumbnail {
     padding: 20px;
   }
-
   .view-article {
     display: none;
   }
@@ -374,24 +366,20 @@ iframe {
     margin: auto;
     font-family: AmericanTypewriter;
   }
-
   h1 {
     color: $yellow !important;
     font-family: BadGuyBlack;
   }
-
   h2 {
     a {
       color: $yellow !important;
       font-family: BadGuyBlack;
     }
   }
-
   .post,
   .date {
     color: white;
   }
-
   .author {
     color: $yellow;
     a {
@@ -420,30 +408,27 @@ iframe {
       font-size: em(30px);
       letter-spacing: 1px;
     }
-
-  aside {
-    font-family: AmericanTypewriter;
-    letter-spacing: 1.5px;
-    line-height: 1.5;
-    font-size: 20px;
-    h2 {
-      color: $maroon;
-      font-weight: bold;
+    aside {
+      font-family: AmericanTypewriter;
+      letter-spacing: 1.5px;
+      line-height: 1.5;
+      font-size: 20px;
+      h2 {
+        color: $maroon;
+        font-weight: bold;
+      }
+    }
+    button {
+      display: block;
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 100px;
+    }
+    .description,
+    .skills {
+      padding: 10px;
     }
   }
-
-  button {
-    display: block;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 100px;
-  }
-
-  .description,
-  .skills {
-    padding: 10px;
-  }
-}
 
 .blog-expand-grid {
   img {
@@ -486,7 +471,6 @@ iframe {
   &:last-child {
     border-bottom: none;
   }
-
   img {
     width: 100%;
     max-width: 300px;
@@ -494,13 +478,10 @@ iframe {
     border-color: $maroon;
     margin-top: 30px;
   }
-
   p {
     font-family: AmericanTypewriter;
     font-size: em(30px);
-
   }
-
   h2 {
     font-family: SignPainter;
     font-size: em(50px);
@@ -513,18 +494,18 @@ iframe {
       font-family: BadGuyBlack;
       color: $yellow;
     }
-}
+  }
 
 //FEATURED
 
 .featured {
   p {
-  font-family: AmericanTypewriter;
-  color: white;
-  font-weight: normal;
-  font-size: 1.5em;
-  padding: 20px;
-  letter-spacing: 1px;
+    font-family: AmericanTypewriter;
+    color: white;
+    font-weight: normal;
+    font-size: 1.5em;
+    padding: 20px;
+    letter-spacing: 1px;
   }
 }
 
@@ -548,7 +529,6 @@ iframe {
   p {
     letter-spacing: 1.5px;
   }
-
   input[type="text"],
   input[type="email"],
   input[type="submit"],
@@ -559,7 +539,6 @@ iframe {
     font-size: em(20px);
     max-width: 800px;
   }
-
   button {
     font-size: em(30px);
   }
@@ -679,24 +658,29 @@ textarea {
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    $maroon;
+    font-family: AmericanTypewriter;
 }
 
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
    color:    $maroon;
    opacity:  1;
+   font-family: AmericanTypewriter;
 }
 
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
    color:    $maroon;
    opacity:  1;
+   font-family: AmericanTypewriter;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
    color:    $maroon;
+   font-family: AmericanTypewriter;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
    color:    $maroon;
+   font-family: AmericanTypewriter;
 }
 
 .form-button {
@@ -787,18 +771,19 @@ button {
   }
 }
 
-//MODAL
+//MODAL STYLING
+
 .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
 }
 
 .modal-content {
@@ -814,18 +799,20 @@ button {
 }
 
 .close {
-    color: $yellow;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: $yellow;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
+
+//SIDEBAR STYLING
 
 .sidebar {
   font-family: AmericanTypewriter;

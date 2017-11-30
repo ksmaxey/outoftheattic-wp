@@ -1702,25 +1702,30 @@ textarea {
 
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
-  color: #521F19; }
+  color: #521F19;
+  font-family: AmericanTypewriter; }
 
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: #521F19;
-  opacity: 1; }
+  opacity: 1;
+  font-family: AmericanTypewriter; }
 
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   color: #521F19;
-  opacity: 1; }
+  opacity: 1;
+  font-family: AmericanTypewriter; }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #521F19; }
+  color: #521F19;
+  font-family: AmericanTypewriter; }
 
 ::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: #521F19; }
+  color: #521F19;
+  font-family: AmericanTypewriter; }
 
 .form-button {
   max-width: 100%; }

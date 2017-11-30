@@ -1,4 +1,4 @@
-§% Z<?php exit; ?>a:1:{s:7:"content";a:6:{s:5:"_form";a:1:{i:0;s:1294:"<div class="app-first">
+«, Z<?php exit; ?>a:1:{s:7:"content";a:6:{s:5:"_form";a:1:{i:0;s:1294:"<div class="app-first">
           <p>First</p>
           <p>Show Us Some Photos (click or drag files to upload)</p>
         </div>
