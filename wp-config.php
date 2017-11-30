@@ -1,4 +1,7 @@
 <?php
+/** Enable W3 Total Cache */
+define('WP_CACHE', true); // Added by W3 Total Cache
+
 
 // BEGIN iThemes Security - Do not modify or remove this line
 // iThemes Security Config Details: 2

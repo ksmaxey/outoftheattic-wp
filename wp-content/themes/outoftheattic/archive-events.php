@@ -9,7 +9,6 @@
 		<?php while (have_posts()) :
 
 			the_post(); ?>
-	<!-- The blog sections are broken up into large, medium, and small sections -->
 				<div class="events-container">
 					<?php the_post_thumbnail(); ?>
 					<div class="event">

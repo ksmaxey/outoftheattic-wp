@@ -13,7 +13,7 @@
 					<div class="blog-large">
 						<h2><?php the_title(); ?></h2>
 						<?php the_post_thumbnail(); ?>
-						<p><?php the_content(); ?></p>
+						<p><?php  the_excerpt();?></p>
 						<a href="<?php the_permalink(); ?>"><button type="button" name="button">Read More</button></a>
 					</div>
 				<?php endwhile; ?>

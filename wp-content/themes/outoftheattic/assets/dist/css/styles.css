@@ -1448,11 +1448,28 @@ iframe {
   letter-spacing: 2px;
   line-height: 1.5; }
 
+.blog em {
+  font-family: AmericanTypewriter;
+  padding-bottom: 140px;
+  color: white;
+  margin-left: 45%;
+  font-size: 1.5em; }
+
+.blog .attachment-post-thumbnail {
+  padding: 20px; }
+
+.blog .view-article {
+  display: none; }
+
 .blog-large {
   padding: 20px;
   background-color: #808080;
   border: 4px solid #cc9900;
   margin: 10px; }
+  .blog-large img {
+    width: 100%;
+    height: 100%;
+    max-width: 400px; }
 
 .pagination {
   width: 1200px;
@@ -1592,6 +1609,11 @@ iframe {
 .events-container {
   background-color: #808080; }
 
+.events-border {
+  width: 1800px;
+  max-width: 100%;
+  margin: auto; }
+
 .event {
   border-bottom: 7px dotted;
   border-color: white;
@@ -1614,7 +1636,8 @@ iframe {
 .date {
   font-family: AmericanTypewriter; }
   .date span {
-    font-family: BadGuyBlack; }
+    font-family: BadGuyBlack;
+    color: #cc9900; }
 
 .featured img {
   max-width: 400px; }
@@ -1758,6 +1781,11 @@ textarea {
 
 .search ul {
   list-style: none; }
+
+.archive h1 {
+  color: #cc9900;
+  font-family: BadGuyBlack;
+  text-align: center; }
 
 .home-container,
 .about-container,
