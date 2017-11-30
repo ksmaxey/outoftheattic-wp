@@ -9,7 +9,6 @@
 		<?php while (have_posts()) :
 
 			the_post(); ?>
-	<!-- The blog sections are broken up into large, medium, and small sections -->
 				<div class="blog-large">
 					<h2><?php the_title(); ?></h2>
 					<?php the_post_thumbnail(); ?>
@@ -17,6 +16,10 @@
 					<a href="<?php the_permalink(); ?>"><button type="button" name="button">Read More</button></a>
 				</div>
 			<?php endwhile; ?>
+			<!-- Sidebar fixed on page -->
+			<div>
+				<?php get_sidebar(); ?>
+			</div>
 		</div>
 	</div>
 

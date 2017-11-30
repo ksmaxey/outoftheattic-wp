@@ -17,6 +17,7 @@
 						<a href="<?php the_permalink(); ?>"><button type="button" name="button">Read More</button></a>
 					</div>
 				<?php endwhile; ?>
+				<!-- Sidebar fixed on page -->
 				<div>
 					<?php get_sidebar(); ?>
 				</div>

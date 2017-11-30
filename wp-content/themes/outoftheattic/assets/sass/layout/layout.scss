@@ -268,7 +268,18 @@ iframe {
     width: 400px;
     max-width: 100%;
   }
+  ul {
+    font-family: AmericanTypewriter;
+    letter-spacing: 1.5px;
+    color: $maroon;
+    line-height: 1.5;
+  }
+  button {
+    margin-top: 20px;
+  }
 }
+
+//Pagination Links Styling
 
 .pagination {
   width: 1200px;

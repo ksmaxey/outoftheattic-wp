@@ -1400,6 +1400,13 @@ iframe {
   .blog-large img {
     width: 400px;
     max-width: 100%; }
+  .blog-large ul {
+    font-family: AmericanTypewriter;
+    letter-spacing: 1.5px;
+    color: #521F19;
+    line-height: 1.5; }
+  .blog-large button {
+    margin-top: 20px; }
 
 .pagination {
   width: 1200px;

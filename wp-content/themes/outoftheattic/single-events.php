@@ -7,7 +7,7 @@ get_header(); ?>
   <h1><?php the_title(); ?></h1>
     <div class="expanded-wrapper">
       <div class="expanded-imagery">
-        <!-- When this image is clicked, a YouTube video will open up full screen and will autoplay -->
+        <!-- Featured image displayed to the left of text -->
         <?php $image = get_field('event_image'); ?>
         <img src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>">
       </div>

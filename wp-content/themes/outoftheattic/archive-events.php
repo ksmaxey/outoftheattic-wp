@@ -15,6 +15,7 @@
 		        <?php $image = get_field('event_image'); ?>
 						<img src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>">
 		          <div class="event-font">
+								<!-- These are entered using the custom fields within wordpress -->
 		            <p class="date"><?php the_field('event_day'); ?>
 										<span><?php the_field('event_date'); ?></span>
 										<?php the_field('event_time'); ?>
