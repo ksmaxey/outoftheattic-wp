@@ -445,6 +445,15 @@ iframe {
   }
 }
 
+.blog-expand-grid {
+  img {
+    max-width: 100%;
+    width: 800px;
+    margin: auto;
+    display: block;
+  }
+}
+
 //Scrollable Box on Expanded Blog Pages
 
 .scrollable {

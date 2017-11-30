@@ -1599,6 +1599,12 @@ iframe {
 .expand .skills {
   padding: 10px; }
 
+.blog-expand-grid img {
+  max-width: 100%;
+  width: 800px;
+  margin: auto;
+  display: block; }
+
 .scrollable {
   width: 100%;
   max-width: 800px;
