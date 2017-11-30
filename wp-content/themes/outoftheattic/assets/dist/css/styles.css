@@ -1400,7 +1400,8 @@ iframe {
   padding-bottom: 20px; }
 
 .events {
-  padding: 10px; }
+  padding: 10px;
+  padding-bottom: 100px; }
 
 .events-border {
   border: 4px solid #cc9900;
@@ -1647,8 +1648,21 @@ iframe {
     font-family: BadGuyBlack;
     color: #cc9900; }
 
-.featured img {
-  max-width: 400px; }
+.featured p {
+  font-family: AmericanTypewriter;
+  color: white;
+  font-weight: normal;
+  font-size: 1.5em;
+  padding: 20px;
+  letter-spacing: 1px; }
+
+.bwg_title_spun1_0 span {
+  color: white !important;
+  font-family: AmericanTypewriter !important;
+  font-size: 20px !important;
+  font-weight: normal !important;
+  background-color: rgba(82, 31, 25, 0.5);
+  letter-spacing: 1px; }
 
 .appraisals-container {
   background-color: rgba(128, 128, 128, 0.4);

@@ -187,6 +187,7 @@ iframe {
 
 .events {
   padding: 10px;
+  padding-bottom: 100px;
 }
 
 .events-border {
@@ -518,8 +519,24 @@ iframe {
 //FEATURED
 
 .featured {
-  img {
-    max-width: 400px;
+  p {
+  font-family: AmericanTypewriter;
+  color: white;
+  font-weight: normal;
+  font-size: 1.5em;
+  padding: 20px;
+  letter-spacing: 1px;
+  }
+}
+
+.bwg_title_spun1_0 {
+  span {
+    color: white !important;
+    font-family: AmericanTypewriter !important;
+    font-size: 20px !important;
+    font-weight: normal !important;
+    background-color: rgba(82, 31, 25, 0.5);
+    letter-spacing: 1px;
   }
 }
 
