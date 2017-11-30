@@ -1,0 +1,1 @@
+³W Z<?php exit; ?>a:1:{s:7:"content";s:283:"a:9:{s:11:"size_before";i:2196442;s:10:"size_after";i:1994755;s:7:"percent";d:9.199999999999999289457264239899814128875732421875;s:5:"human";s:8:"197.0 KB";s:5:"bytes";i:201687;s:12:"total_images";i:52;s:14:"resize_savings";i:0;s:12:"resize_count";i:0;s:18:"conversion_savings";i:0;}";}
