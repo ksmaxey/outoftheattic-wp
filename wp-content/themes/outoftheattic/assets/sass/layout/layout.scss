@@ -1,4 +1,3 @@
-@import "grid-settings.scss";
 @import "dropzone.scss";
 @import "breakpoints.scss";
 
@@ -580,6 +579,10 @@ iframe {
   }
 }
 
+.fallback {
+  font-family: AmericanTypewriter;
+}
+
 #app_description {
   height: 280px;
 }
@@ -620,6 +623,17 @@ iframe {
   h2 {
     font-family: BadGuyBlack;
     text-align: center;
+  }
+  .icons-div {
+    width: 300px;
+    max-width: 100%;
+    margin: auto;
+    padding-bottom: 100px;
+    img {
+      display: inline;
+      text-align: center;
+      margin-left: 10%;
+    }
   }
 }
 

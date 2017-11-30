@@ -525,79 +525,6 @@ template {
     .limit-min-max {
       font-size: 50px; } }
 
-/* Featured Items */
-.section {
-  display: none;
-  padding-bottom: 2rem; }
-  @media screen and (min-width: 768px) {
-    .section {
-      padding-right: 4rem;
-      padding-left: 4rem; } }
-  @supports (display: grid) {
-    .section {
-      display: block; } }
-
-.item {
-  max-width: 400px;
-  clear: both;
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: -webkit-transform 0.3s ease-in-out;
-  transition: -webkit-transform 0.3s ease-in-out;
-  -o-transition: transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-  border: 2px solid #cc9900; }
-  .item:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0.3;
-    -webkit-transition: opacity 0.3s ease-in-out;
-    -o-transition: opacity 0.3s ease-in-out;
-    transition: opacity 0.3s ease-in-out; }
-  .item:hover {
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    transform: scale(1.05); }
-    .item:hover:after {
-      opacity: 0; }
-  .item--medium {
-    grid-row-end: span 2; }
-  .item--large {
-    grid-row-end: span 3; }
-  .item--full {
-    grid-column-end: auto; }
-    @media screen and (min-width: 768px) {
-      .item--full {
-        grid-column: 1/-1;
-        grid-row-end: span 2; } }
-  .item__details {
-    position: relative;
-    z-index: 1;
-    padding: 15px;
-    background: #fff;
-    letter-spacing: 1px;
-    color: #521F19;
-    font-family: AmericanTypewriter;
-    text-align: center; }
-
 @-webkit-keyframes passing-through {
   0% {
     opacity: 0;
@@ -782,7 +709,7 @@ template {
 .dropzone {
   min-height: 150px;
   border: 4px solid #cc9900;
-  background-image: url(img/dragicon.png);
+  background-image: url(/assets/img/dragicon.png);
   background-size: 100px 100px;
   max-width: 800px;
   background-position: center center;
@@ -1695,6 +1622,9 @@ iframe {
     font-family: BadGuyBlack;
     color: #cc9900; }
 
+.fallback {
+  font-family: AmericanTypewriter; }
+
 #app_description {
   height: 280px; }
 
@@ -1727,6 +1657,15 @@ iframe {
   .form-container h2 {
     font-family: BadGuyBlack;
     text-align: center; }
+  .form-container .icons-div {
+    width: 300px;
+    max-width: 100%;
+    margin: auto;
+    padding-bottom: 100px; }
+    .form-container .icons-div img {
+      display: inline;
+      text-align: center;
+      margin-left: 10%; }
 
 .wpcf7-submit {
   display: none; }
