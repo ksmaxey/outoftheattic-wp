@@ -238,7 +238,6 @@ iframe {
     font-family: BadGuyBlack;
     font-size: em(20px);
     color: $maroon;
-
   }
 
   img {
@@ -250,6 +249,7 @@ iframe {
     letter-spacing: 2px;
     line-height: 1.5;
   }
+
   em {
     font-family: AmericanTypewriter;
     padding-bottom: 140px;
@@ -257,9 +257,11 @@ iframe {
     margin-left: 45%;
     font-size: 1.5em;
   }
+
   .attachment-post-thumbnail {
     padding: 20px;
   }
+
   .view-article {
     display: none;
   }
@@ -271,9 +273,8 @@ iframe {
   border: 4px solid $yellow;
   margin: 10px;
   img {
-    width: 100%;
-    height: 100%;
-    max-width: 400px;
+    width: 400px;
+    max-width: 100%;
   }
 }
 
@@ -790,6 +791,7 @@ button {
   font-family: AmericanTypewriter;
   max-width: 400px;
   text-align: right;
+  padding: 20px;
   ul {
     list-style-type: none;
   }

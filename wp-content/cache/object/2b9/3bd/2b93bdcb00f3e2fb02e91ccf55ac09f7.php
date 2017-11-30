@@ -1,0 +1,26 @@
+½± Z<?php exit; ?>a:1:{s:7:"content";C:24:"WPSEO_Sitemap_Cache_Data":881:{a:2:{s:6:"status";s:2:"ok";s:3:"xml";s:834:"<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>http://localhost:8888/post-sitemap.xml</loc>
+		<lastmod>2017-11-30T01:29:45+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>http://localhost:8888/page-sitemap.xml</loc>
+		<lastmod>2017-11-27T13:17:28+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>http://localhost:8888/events-sitemap.xml</loc>
+		<lastmod>2017-11-23T18:04:15+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>http://localhost:8888/featured_items-sitemap.xml</loc>
+		<lastmod>2017-11-29T02:08:20+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>http://localhost:8888/category-sitemap.xml</loc>
+		<lastmod>2017-11-30T01:29:45+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>http://localhost:8888/post_tag-sitemap.xml</loc>
+		<lastmod>2017-11-30T01:29:45+00:00</lastmod>
+	</sitemap>
+</sitemapindex>";}}}
