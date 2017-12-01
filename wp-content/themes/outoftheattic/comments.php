@@ -2,7 +2,7 @@
 
 	<?php $fields = array(
 		'author' => '<input id="author" placeholder="Name" name="author" type="text" value="'. esc_attr( $commenter['comment_author'] ) .'" />',
-		'email'=> '<input id="email" placeholder="Email" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) . $aria_req . ' />'
+		'email'=> '<input id="email" placeholder="Email" name="email" type="text" />'
 	);
 
 	$args = array(

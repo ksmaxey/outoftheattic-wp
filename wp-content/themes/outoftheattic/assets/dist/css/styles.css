@@ -1074,8 +1074,6 @@ template {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     -ms-grid-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
-    -ms-grid-rows: repeat(12, 1fr);
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -1274,8 +1272,10 @@ footer {
     display: block;
     padding: 10px; }
   .home h1 {
-    padding-left: 60px;
-    position: relative; }
+    padding-top: 100px;
+    padding-left: 110px;
+    position: relative;
+    margin-top: 0; }
 
 .backgroundthumb {
   height: 100vh;
