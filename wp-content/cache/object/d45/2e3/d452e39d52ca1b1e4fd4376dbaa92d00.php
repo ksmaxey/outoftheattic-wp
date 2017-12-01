@@ -1,4 +1,4 @@
-äX Z<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":23:{s:2:"ID";s:3:"170";s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2017-11-30 01:52:03";s:13:"post_date_gmt";s:19:"2017-11-30 01:52:03";s:12:"post_content";s:1281:"[heading]Directions to Out of the Attic[/heading]
+¹« Z<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":23:{s:2:"ID";s:3:"170";s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2017-11-30 01:52:03";s:13:"post_date_gmt";s:19:"2017-11-30 01:52:03";s:12:"post_content";s:1281:"[heading]Directions to Out of the Attic[/heading]
 
 Directions to our physical location:
 
