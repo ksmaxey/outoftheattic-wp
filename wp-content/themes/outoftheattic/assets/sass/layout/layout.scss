@@ -376,7 +376,7 @@ iframe {
 
 .search {
   section {
-    width: 500px;
+    width: 1500px !important;
     max-width: 100%;
     margin: auto;
     font-family: AmericanTypewriter;
@@ -389,6 +389,11 @@ iframe {
     a {
       color: $yellow !important;
       font-family: BadGuyBlack;
+    }
+    .date,
+    .author,
+    .comment {
+      display: none !important;
     }
   }
   .post,

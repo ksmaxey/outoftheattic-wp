@@ -1479,7 +1479,7 @@ iframe {
     padding-bottom: 20px; }
 
 .search section {
-  width: 500px;
+  width: 1500px !important;
   max-width: 100%;
   margin: auto;
   font-family: AmericanTypewriter; }
@@ -1491,6 +1491,11 @@ iframe {
 .search h2 a {
   color: #cc9900 !important;
   font-family: BadGuyBlack; }
+
+.search h2 .date,
+.search h2 .author,
+.search h2 .comment {
+  display: none !important; }
 
 .search .post,
 .search .date {

@@ -8,12 +8,8 @@
 
 			<?php get_template_part('partials/loop'); ?>
 
-			<?php get_template_part('partials/pagination'); ?>
-
 		</section>
 		<!-- /section -->
 	</main>
-
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
