@@ -12,10 +12,11 @@ add_shortcode('heading', 'heading_shortcode'); // You can place [heading] in Pag
 
 // Shortcode Demo with Nested Capability
 
-function heading_shortcode($atts, $content = null)
+/* function heading_shortcode($atts, $content = null)
 {
     return '<h2 style="color: '. $atts['color'] .';">' . do_shortcode($content) . '</h2>'; // do_shortcode allows for nested Shortcodes
 }
+*/
 
 // Shortcode Demo with simple <h2> tag
 //function html5_shortcode_demo_2($atts, $content = null) // Demo Heading H2 shortcode, allows for nesting within above element. Fully expandable.
